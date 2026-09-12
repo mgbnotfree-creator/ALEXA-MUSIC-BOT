@@ -1,14 +1,14 @@
 # ==========================================================
-# Copyright (c) 2026 VelocityBots 
+# Copyright (c) 2026 MGB NOT FREE 
 # All Rights Reserved.
 #
-# Project      : VelocityBots API Telegram Music Bot
-# Powered By   : VelocityBots 
+# Project      : mgb not free
+# Powered By   : MGB NOT FREE
 # Type         : API Based Telegram Music Bot
 #
-# Bot          : @JunoXmusic_Robot
-# Channel      : https://t.me/junoxmusic_updates
-# GitHub       : https://github.com/bishalkumarsahh-eng
+# Bot          : @RIYA_MUSIC_X_BOT
+# Channel      : https://t.me/RIYA_MUSIC_BOT_786
+# GitHub       : https://github.com/mgbnotfree-creator/MGB_NOT_FREE_MUSIC
 #
 # Unauthorized copying, modification, or redistribution
 # of this source code without permission is prohibited.
@@ -43,8 +43,8 @@ class Config:
         self.SESSION3: str = getenv("STRING_SESSION3", "")
 
         # Support Links
-        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/junoxmusic_updates")
-        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/junoxmusic")
+        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/RIYA_MUSIC_BOT_786")
+        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/MGB_SUPPPOT")
 
         # Excluded Chats
         self.EXCLUDED_CHATS: List[int] = self._parse_excluded_chats()
@@ -131,3 +131,4 @@ class Config:
 
 
 config = Config()
+        
