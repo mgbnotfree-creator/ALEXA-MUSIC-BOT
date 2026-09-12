@@ -1,242 +1,133 @@
-<div align="center"> 
-<img src="https://files.catbox.moe/zlmv6v.png" width="400">
-# 🎵 Juno X Music
-### Advanced Telegram Voice Chat Music Bot
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+JUNO+X+MUSIC;ADVANCED+TELEGRAM+MUSIC+BOT;HIGH+QUALITY+VOICE+CHAT+STREAMING;MULTI+LANGUAGE+SUPPORT;POWERED+BY+JUNO+X+MUSIC)](https://github.com)
-<br>
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue?style=for-the-badge&logo=telegram)](https://t.me/Artistbots)
-[![Support Group](https://img.shields.io/badge/Telegram-Support-blue?style=for-the-badge&logo=telegram)](https://t.me/junoxmusic)
-<br>
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![Pyrogram](https://img.shields.io/badge/Pyrogram-Latest-green)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-success)
-![License](https://img.shields.io/badge/License-MIT-orange)
-### 🎧 A Powerful Telegram Music Streaming Bot
-</div>
----
-<div align="center">
-# 🚀 𝗗𝗘𝗣𝗟𝗢𝗬 𝗙𝗥𝗘𝗘 𝗢𝗡 𝗥𝗘𝗡𝗗𝗘𝗥 🚀
-### ⚠️ Fork Repository Before Deployment
-</div>
----
-# 🌟 About Juno X Music
-Juno X Music is an advanced Telegram Voice Chat Music Bot built with **Pyrogram**, **PyTgCalls**, and **MongoDB**.
-It allows users to stream high-quality music directly inside Telegram Voice Chats with premium playback performance, playlist management, queue system, admin controls, broadcasting features, statistics tracking, and multi-language support.
-Designed for speed, stability, scalability and modern Telegram communities.
----
-# ✨ Main Features
-## 🎵 Music Streaming
-✔ High Quality Audio Streaming
-✔ YouTube Search & Play
-✔ Direct URL Playback
-✔ Voice Chat Streaming
-✔ Playlist Support
-✔ Auto Queue Management
-✔ Continuous Playback
-✔ Fast Audio Processing
-✔ Crystal Clear Sound Quality
----
-## 🎛 Admin Controls
-✔ Pause Music
-✔ Resume Music
-✔ Skip Song
-✔ Stop Playback
-✔ Force Play
-✔ Mute Assistant
-✔ Unmute Assistant
-✔ Volume Control
-✔ Queue Cleanup
----
-## 👥 User Management
-✔ Authorized Users
-✔ Sudo Users
-✔ Global Ban System
-✔ User Statistics
-✔ Premium Features Ready
-✔ Owner Controls
----
-## 🤖 Bot Management
-✔ Restart Command
-✔ Broadcast System
-✔ Maintenance Mode
-✔ Logs Monitoring
-✔ Error Reporting
-✔ Auto Restart Support
-✔ Database Integration
----
-# 📊 Performance
-- Optimized Streaming Engine
-- Fast Queue Processing
-- Low Memory Usage
-- Stable Voice Chat Playback
-- High Uptime Support
-- Efficient Database Queries
----
-# 🔑 Required Environment Variables
-Create `.env` file and fill all values:
-```env
-API_ID=
-API_HASH=
-BOT_TOKEN=
-STRING_SESSION=
-MONGO_DB_URI=
-LOGGER_ID=
-OWNER_ID=
-ARTISTBOTS_API_URL= 
-ARTISTBOTS_KEY=
-SUPPORT_CHAT= (Optional)
-SUPPORT_CHANNEL= (Optional)
-DEFAULT_THUMB= (Optional)
-PING_IMG= (Optional)
-START_IMG= (Optional)
-```
----
-# 📝 Variables Explanation
+# ==========================================================
+# Copyright (c) 2026 VelocityBots 
+# All Rights Reserved.
+#
+# Project      : VelocityBots API Telegram Music Bot
+# Powered By   : VelocityBots 
+# Type         : API Based Telegram Music Bot
+#
+# Bot          : @JunoXmusic_Robot
+# Channel      : https://t.me/junoxmusic_updates
+# GitHub       : https://github.com/bishalkumarsahh-eng
+#
+# Unauthorized copying, modification, or redistribution
+# of this source code without permission is prohibited.
+# ==========================================================
+from os import getenv
+from typing import List
+from dotenv import load_dotenv
 
-| Variable | Description |
-| :--- | :--- |
-| API_ID | Telegram API ID |
-| API_HASH | Telegram API Hash |
-| BOT_TOKEN | BotFather Token |
-| STRING_SESSION | Assistant Session |
-| MONGO_DB_URI | MongoDB Database URL |
-| LOGGER_ID | Logs Group ID |
-| OWNER_ID | Owner Telegram ID |
-| SUPPORT_CHAT | Support Group Username |
-| SUPPORT_CHANNEL | Updates Channel Username |
-| ARTISTBOTS_API_URL | VelocityBots ꭙ Music on Telegram |
-| ARTISTBOTS_KEY | t.me/artistapibot |
+load_dotenv()
 
----
-# 🚀 Deploy on Render
-## Step 1
-Fork this Repository
-## Step 2
-Create Render Account
-## Step 3
-Connect GitHub
-## Step 4
-Create New Web Service
-## Step 5
-Select Repository
-### Build Command
-```bash
-pip install -U -r requirements.txt
-```
-### Start Command
-```bash
-bash start
-```
-## Step 6
-Add Environment Variables
-## Step 7
-Deploy Service
----
-# 🚀 Deploy on Railway
-1. Fork Repository
-2. Create Railway Project
-3. Connect GitHub Repository
-4. Add Environment Variables
-5. Deploy Project
----
-# 🖥 Deploy on VPS
-## Update System
-```bash
-apt update && apt upgrade -y
-```
-## Install Dependencies
-```bash
-apt install python3 python3-pip ffmpeg git -y
-```
-## Clone Repository
-```bash
-git clone https://github.com/elevenyts/Elevenyts
-```
-## Open Project
-```bash
-cd Elevenyts
-```
-## Install Requirements
-```bash
-pip3 install -U -r requirements.txt
-```
-## Configure Variables
-```bash
-nano .env
-```
-## Run Bot
-```bash
-bash start
-```
-or
-```bash
-python -m Elevenyts
-```
----
-# 🎵 Commands
-## Music Commands
-```text
-/play
-/vplay
-/cplay
-/pause
-/resume
-/skip
-/end
-/queue
-/song
-/lyrics
-```
-## Admin Commands
-```text
-/restart
-/broadcast
-/gban
-/ungban
-/maintenance
-/stats
-```
-## Sudo Commands
-```text
-/addsudo
-/delsudo
-/sudolist
-/logs
-```
----
-# 📞 Support & Contact
-<div align="center">
-## IF YOU FACE ANY ERROR
-### SEND SCREENSHOT TO SUPPORT
-[![ARTIST](https://files.catbox.moe/kcnahh.png)](https://t.me/Artistbots)
-</p>
----
-### 📢 Telegram Channel 💬 Support Group
-- **Telegram Channel**: [VelocityBots ꭙ Music](https://t.me/Artistbots)
-- **Support Group**: [Junox Music](https://t.me/junoxmusic)
----
-# 🔒 Security Notes
-❌ Never Share BOT_TOKEN
-❌ Never Share STRING_SESSION
-❌ Never Share MongoDB URI
-✔ Keep Credentials Secure
-✔ Use Separate Assistant Account
-✔ Keep Logger Group Private
----
-# ❤️ Credits
-- Pyrogram
-- PyTgCalls
-- MongoDB
-- Telegram API
-- VelocityBots ꭙ Music
----
-# 📝 Notes
-- Make sure your bot is admin in both the group and logger group
-- The assistant account will auto-join groups when needed for playback
-- Keep your `.env` file secure and never share it publicly
-- Use a second ID for the assistant ID 
----
-### Made with ❤️ by Artist
-### Powered by VelocityBots ꭙ Music
-### © 2026 VelocityBots ꭙ Music. All Rights Reserved.
-</div>
+
+class Config:
+    def __init__(self):
+        # Telegram API
+        self.API_ID: int = int(getenv("API_ID", "0"))
+        self.API_HASH: str = getenv("API_HASH", "")
+        self.BOT_TOKEN: str = getenv("BOT_TOKEN", "")
+        self.LOGGER_ID: int = int(getenv("LOGGER_ID", "0"))
+        self.OWNER_ID: int = int(getenv("OWNER_ID", "0"))
+
+        # Database
+        self.MONGO_URL: str = getenv("MONGO_DB_URI", "")
+
+        # Limits
+        self.DURATION_LIMIT: int = int(getenv("DURATION_LIMIT", "300")) * 60
+        self.QUEUE_LIMIT: int = int(getenv("QUEUE_LIMIT", "30"))
+        self.PLAYLIST_LIMIT: int = int(getenv("PLAYLIST_LIMIT", "20"))
+
+        # Assistant Sessions @genstringbot
+        self.SESSION1: str = getenv("STRING_SESSION", "")
+        self.SESSION2: str = getenv("STRING_SESSION2", "")
+        self.SESSION3: str = getenv("STRING_SESSION3", "")
+
+        # Support Links
+        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/junoxmusic_updates")
+        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/junoxmusic")
+
+        # Excluded Chats
+        self.EXCLUDED_CHATS: List[int] = self._parse_excluded_chats()
+
+        # Feature Flags
+        self.AUTO_END: bool = self._str_to_bool(getenv("AUTO_END", "False"))
+        self.AUTO_LEAVE: bool = self._str_to_bool(getenv("AUTO_LEAVE", "False"))
+        self.THUMB_GEN: bool = self._str_to_bool(getenv("THUMB_GEN", "True"))
+        self.VIDEO_PLAY: bool = self._str_to_bool(getenv("VIDEO_PLAY", "True"))
+        self.VIDEO_MAX_HEIGHT: int = self._parse_video_height()
+
+        # ArtistBots API @ArtistApibot
+        self.ARTISTBOTS_API_URL: str = getenv("ARTISTBOTS_API_URL", "https://api01.shrutibots.site")
+        self.ARTISTBOTS_KEY: str = getenv("ARTISTBOTS_KEY", "ShrutiBotsBUvGvLipr11ROSbBMXuG")
+        self.ENABLE_API: bool = self._str_to_bool(getenv("ENABLE_API", "True"))
+        self.ENABLE_COOKIES_FALLBACK: bool = self._str_to_bool(getenv("ENABLE_COOKIES_FALLBACK", "True"))
+        self.API_TIMEOUT: int = int(getenv("API_TIMEOUT", "60"))
+        self.API_STREAM_TIMEOUT: int = int(getenv("API_STREAM_TIMEOUT", "300"))
+
+        # YouTube Cookies
+        self.COOKIES_URL: List[str] = self._parse_cookies()
+
+        # Images
+        self.DEFAULT_THUMB: str = getenv("DEFAULT_THUMB", "https://kommodo.ai/i/jzdfbObgqRRDbEYjMctV")
+        self.PING_IMG: str = getenv("PING_IMG", "https://kommodo.ai/i/sYYB017BdEvUfN04XmGg")
+        self.START_IMG: str = getenv("START_IMG", "https://kommodo.ai/i/pJuq7zvlKTnlgeAPJL4r")
+        self.RADIO_IMG: str = getenv("RADIO_IMG", "https://kommodo.ai/i/ycPGouOVgdI2BqYebYy3")
+        
+        # Sticker ID for welcome message
+        self.STICKER_ID: str = getenv("STICKER_ID", "CAACAgUAAxkBAAERZd9qMHDSNUAH_8ZAnU4aT97Aw5THZwACdh8AApKxgFWOSimDJoOjCjwE")
+
+        # Moderation
+        self.EXCLUDED_USERNAMES: List[str] = getenv("EXCLUDED_USERNAMES", "").split()
+
+    def _parse_video_height(self) -> int:
+        default_height = 1080
+        raw_value = getenv("VIDEO_MAX_HEIGHT", str(default_height))
+        try:
+            height = int(raw_value)
+        except (TypeError, ValueError):
+            return default_height
+        if height <= 0:
+            return 0
+        return max(480, min(height, 2160))
+
+    def _parse_excluded_chats(self) -> List[int]:
+        excluded = getenv("EXCLUDED_CHATS", "")
+        if not excluded:
+            return []
+        chat_ids = []
+        for chat_id in excluded.split(","):
+            chat_id = chat_id.strip()
+            if chat_id.lstrip('-').isdigit():
+                chat_ids.append(int(chat_id))
+        return chat_ids
+
+    def _parse_cookies(self) -> List[str]:
+        cookie_str = getenv("COOKIE_URL", "")
+        if not cookie_str:
+            return []
+        valid_sources = ["batbin.me", "pastebin.com", "paste.ee", "rentry.co"]
+        return [url.strip() for url in cookie_str.split() if url.strip() and any(source in url for source in valid_sources)]
+
+    @staticmethod
+    def _str_to_bool(value: str) -> bool:
+        return value.lower() in ("true", "1", "yes", "y", "on")
+
+    def check(self) -> None:
+        required_vars = {
+            "API_ID": self.API_ID,
+            "API_HASH": self.API_HASH,
+            "BOT_TOKEN": self.BOT_TOKEN,
+            "MONGO_DB_URI": self.MONGO_URL,
+            "LOGGER_ID": self.LOGGER_ID,
+            "OWNER_ID": self.OWNER_ID,
+            "STRING_SESSION": self.SESSION1,
+        }
+        missing = [name for name, value in required_vars.items() if not value or (isinstance(value, int) and value == 0)]
+        if missing:
+            raise SystemExit(f"Missing required env vars: {', '.join(missing)}")
+        
+        if self.ENABLE_API and not self.ARTISTBOTS_KEY:
+            print("Warning: ENABLE_API is True but ARTISTBOTS_KEY is not set")
+
+
+config = Config()
